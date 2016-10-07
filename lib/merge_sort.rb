@@ -1,5 +1,3 @@
-require 'pry'
-
 class MergeSort
   def merge_sort(unsorted)
     def mergesort(arr)
