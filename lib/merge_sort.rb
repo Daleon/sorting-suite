@@ -1,9 +1,7 @@
 require 'pry'
 
 class MergeSort
-
   def merge_sort(unsorted)
-
     def mergesort(arr)
       return arr if arr.length <= 1
       mid_position = arr.length/2 - 1
@@ -13,7 +11,6 @@ class MergeSort
     end
     return mergesort(unsorted)
   end
-
     def merge(left_arr, right_arr)
       r_idx = 0
       l_idx  = 0

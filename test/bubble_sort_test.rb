@@ -8,7 +8,5 @@ class BubbleSortTest < Minitest::Test
     sorter = BubbleSort.new
     assert_equal ["a", "b", "c", "d"],
      sorter.sort(["d", "b", "a", "c"])
-
-     sorter.sort(["b", "a"])
   end
 end

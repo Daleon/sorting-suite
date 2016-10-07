@@ -1,7 +1,6 @@
 require 'pry'
 
 class InsertSort
-
   def sort(input)
     input.each_with_index do |item, index|
       comparitor_index = index - 1
