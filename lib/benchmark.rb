@@ -4,7 +4,7 @@ require_relative 'insert_sort'
 
 class Benchmark
 
-  def bubble_sort_time(sample_data)
+  def time(sample_data)
     beginning_time = Time.now
     sorter = BubbleSort.new
       sorter.sort(sample_data)
@@ -48,4 +48,4 @@ class Benchmark
   end
 end
 benchmark = Benchmark.new
-benchmark_time = benchmark.bubble_sort_time([3,3,4,5,1])
+benchmark_time = benchmark.time([3,3,4,5,1])
